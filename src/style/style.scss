@@ -1,0 +1,25 @@
+//modules
+@use './base/reset';
+@use './base/vars';
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+body {
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.container {
+    max-width: 1070px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
