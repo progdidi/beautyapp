@@ -11,8 +11,9 @@
 
 body {
     font-family: var(--font-family);
-    font-size: 16px;
-    line-height: 140%;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000;
     font-style: normal;
     font-weight: 400;
 }
@@ -22,4 +23,14 @@ body {
     max-width: 1332px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+section {
+    padding: 112px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
 }
